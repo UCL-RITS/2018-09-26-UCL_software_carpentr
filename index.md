@@ -190,14 +190,14 @@ and our administrator may contact you if we need any extra information.</h4>
 <h2 id="surveys">Surveys</h2>
 <p>Please be sure to complete these surveys before and after the workshop.</p>
 {% if site.carpentry == "swc" %} 
-<p><a href="{{ site.swc_pre_survey }}{{ site.github.project_title }}">Pre-workshop Survey</a></p>
-<p><a href="{{ site.swc_post_survey }}{{ site.github.project_title }}">Post-workshop Survey</a></p>
+<p><a href="{{ site.swc_pre_survey }}{{https://www.surveymonkey.com/results/SM-W2BY5GYFL/}}">Pre-workshop Survey</a></p>
+<p><a href="{{ site.swc_post_survey }}{{https://www.surveymonkey.com/results/SM-R9GLQBYFL/}}">Post-workshop Survey</a></p>
 {% elsif site.carpentry == "dc" %}
-<p><a href="{{ site.dc_pre_survey }}{{ site.github.project_title }}">Pre-workshop Survey</a></p>
-<p><a href="{{ site.dc_post_survey }}{{ site.github.project_title }}">Post-workshop Survey</a></p>
+<p><a href="{{ site.dc_pre_survey }}{{https://www.surveymonkey.com/results/SM-W2BY5GYFL/}}">Pre-workshop Survey</a></p>
+<p><a href="{{ site.dc_post_survey }}{{https://www.surveymonkey.com/results/SM-R9GLQBYFL/}}">Post-workshop Survey</a></p>
 {% elsif site.carpentry == "lc" %}
-<p><a href="{{ site.lc_pre_survey }}{{ site.github.project_title }}">Pre-workshop Survey</a></p>
-<p><a href="{{ site.lc_post_survey }}{{ site.github.project_title }}">Post-workshop Survey</a></p>
+<p><a href="{{ site.lc_pre_survey }}{{https://www.surveymonkey.com/results/SM-W2BY5GYFL/}}">Pre-workshop Survey</a></p>
+<p><a href="{{ site.lc_post_survey }}{{https://www.surveymonkey.com/results/SM-R9GLQBYFL/}}">Post-workshop Survey</a></p>
 {% endif %}
 
 <hr/>
